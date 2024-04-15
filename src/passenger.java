@@ -1,10 +1,7 @@
 public class passenger implements Comparable<passenger> {
     private String name;
     private PassengerType type;
-    private int priority; // This is now derived directly from the PassengerType enum
     private static int sequenceCounter = 0;
-    private int sequenceNumber;
-
 
     public passenger(String name, PassengerType type) {
         this.name = name;
