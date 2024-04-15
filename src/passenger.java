@@ -10,7 +10,6 @@ public class passenger implements Comparable<passenger> {
         this.name = name;
         this.type = type;
         this.priority = type.getPriority();
-        this.priority = type.getPriority();
         this.sequenceNumber = ++sequenceCounter;
     }
 
